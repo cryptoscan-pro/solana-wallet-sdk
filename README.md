@@ -2,6 +2,8 @@
 
 Utility to work with solana wallets
 
+[[GitHub](https://github.com/cryptoscan-pro/solana-wallet-sdk)]
+
 To install package:
 
 
@@ -47,6 +49,12 @@ getBalance(wallet).then((balance) => {
 - `makeWallets(path: string, count: number): void`
 
 ## Deploy
+
+To install project
+
+```
+git clone https://github.com/cryptoscan-pro/swap-sdk
+```
 
 To install dependencies:
 
