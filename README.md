@@ -27,6 +27,16 @@ getBalance(wallet, process.env.COIN_ADDRESS).then((balance) => {
 });
 ```
 
+```javascript
+import { getWallet, getBalance } from '@cryptoscan/solana-wallet-sdk';
+
+const wallet = getWallet(process.env.SECRET_KEY);
+
+getBalance(wallet).then((balance) => {
+   console.log('Balance: ' + balance);
+});
+```
+
 ## Docs
 
 - `createWallet(): Keypair`

@@ -2,6 +2,7 @@
   "name": "@cryptoscan/solana-wallet-sdk",
   "module": "lib/index.ts",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "test": "bun --env-file=../../.env.test test",
     "build": "pnpm run build:compile && pnpm run build:types",
