@@ -2,6 +2,12 @@
   "name": "@cryptoscan/solana-wallet-sdk",
   "module": "lib/index.ts",
   "type": "module",
+  "scripts": {
+    "test": "bun --env-file=../../.env.test test",
+    "build": "pnpm run build:compile && pnpm run build:types",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:compile": "bun build lib/index.ts --outdir ./dist --target bun"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -10,7 +16,7 @@
   },
   "dependencies": {
     "@solana/spl-token": "^0.4.6",
-    "@solana/web3.js": "^1.93.0",
+    "@solana/web3.js": "^1.93.1",
     "bignumber.js": "^9.1.2",
     "bs58": "^5.0.0"
   }
