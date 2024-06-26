@@ -1,0 +1,17 @@
+{
+  "name": "@cryptoscan/solana-wallet-sdk",
+  "module": "lib/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.93.0",
+    "bignumber.js": "^9.1.2",
+    "bs58": "^5.0.0"
+  }
+}
