@@ -4,6 +4,7 @@ Utility to work with solana wallets
 
 To install package:
 
+
 ```bash
 npm install @cryptoscan/solana-wallet-sdk
 ```
